@@ -13,7 +13,7 @@
 	flex-direction: column;
     justify-content: end;
     margin: 20px;
-    padding; 10px;
+    padding: 10px;
     border-style: groove;
 }
 
@@ -34,11 +34,15 @@
 .three  {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-content: center;
-    margin: 20px;
-    padding; 10px;
+    justify-content: space-between;
+}
 
+.three-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: space-around;
+    margin: 10px;
 
 }
 
@@ -46,11 +50,8 @@
     display: flex;
     flex-direction: row;
     justify-content: end;
-    align-content: center;
-    margin-top: 50px;
-    padding; 10px;
-    width: 1000px;
-    height:100px;
+    align-content: space-around;
+    margin: 10px;
 }
 
 form {
@@ -82,15 +83,14 @@ form {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    border-style: dotted;
 }
 
 .art {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
-    border-style: groove;
 }
 
 
